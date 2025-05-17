@@ -1,12 +1,11 @@
-import React from 'react';
 import './App.scss';
+import Container from './components/layout/container/container';
 
 
 function App() {
 
   return (
-    <div className="App">
-      </div>
+    <Container/>
   );
 }
 
