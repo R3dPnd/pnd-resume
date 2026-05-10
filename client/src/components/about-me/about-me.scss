@@ -1,0 +1,27 @@
+@import '../../styles/mixins';
+
+.about-me {
+    @include panel;
+
+    &__name {
+        width: 100%;
+        font-family: 'SilkscreenBold', monospace;
+        font-size: 1.8rem;
+        @include neon-blue;
+        margin-bottom: 0.25rem;
+    }
+
+    &__title {
+        width: 100%;
+        font-size: 0.9rem;
+        @include neon-teal;
+        margin-bottom: 1rem;
+    }
+
+    &__bio {
+        width: 100%;
+        font-size: 0.8rem;
+        color: $color-grey-light-1;
+        line-height: 1.7;
+    }
+}

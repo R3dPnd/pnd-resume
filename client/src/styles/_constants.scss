@@ -1,28 +1,30 @@
-/*
-COLORS:
+// Backgrounds — dark blue-tinted
+$color-bg-darkest: #04080f;
+$color-bg-dark:    #070d1a;
+$color-bg-mid:     #0b1225;
+$color-bg-panel:   #111b35;
 
-Cyan: #2ff3e0
-Gold: #f8d210
-Pink: #28b485
-Chili Pepper: #f51720
+// Primary — electric blue
+$color-primary:      #4488ff;
+$color-primary-mid:  #2266ff;
+$color-primary-deep: #0044ff;
 
-*/
-$color-primary: #2ff3e0;
-$color-secondary: #f51720;
-$color-tertiary: #28b485;
-$color-accent: #f8d210;
-$color-galaxy-purple: #4c175a;
-$color-space-purple: #27214f;
+// Teal accent
+$color-teal:      #00ffdd;
+$color-teal-dim:  #00bbaa;
 
-$color-red: #ff0000;
-$color-green: #00ff00;
-$color-blue: #0000ff;
-$color-yellow: #fff800;
-$color-cyan: #00f0e5;
-$color-grey-light-1: #f7f7f7;
+// Secondary accents
+$color-secondary: #ff3377;
+$color-orange:    #ff9900;
+$color-violet:    #aa44ff;
 
-$color-arcade-green: #005900;
-$color-arcade-grey: #5A5A5A;
+// Text
+$color-grey-light-1: #ccdaee;
+$color-arcade-grey:  #6688bb;
+
+// Semantic aliases kept for component compatibility
+$color-accent:       $color-teal;
+$color-space-purple: $color-bg-darkest;
 
 // Grid
 $float-grid-width: 90rem;

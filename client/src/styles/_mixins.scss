@@ -1,0 +1,33 @@
+@import 'constants';
+
+@mixin panel {
+    width: 100%;
+    background-color: $color-bg-dark;
+    border: 1px solid #{$color-primary-mid}33;
+    box-shadow: 0 0 12px #{$color-primary-deep}44, inset 0 0 8px #{$color-primary-deep}0a;
+}
+
+@mixin section-heading {
+    width: 100%;
+    font-family: 'SilkscreenBold', monospace;
+    font-size: 1.2rem;
+    color: $color-primary;
+    text-shadow: 0 0 8px $color-primary-mid, 0 0 20px #{$color-primary-deep}88;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #{$color-teal}33;
+}
+
+@mixin neon-blue {
+    color: $color-primary;
+    text-shadow: 0 0 8px $color-primary-mid, 0 0 20px #{$color-primary-deep}88;
+}
+
+@mixin neon-teal {
+    color: $color-teal;
+    text-shadow: 0 0 8px $color-teal, 0 0 20px #{$color-teal}66;
+}
+
+@mixin neon-red {
+    color: $color-secondary;
+    text-shadow: 0 0 8px $color-secondary, 0 0 20px #{$color-secondary}66;
+}

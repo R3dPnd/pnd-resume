@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "WebFetch(domain:super-robot-wars-gu-universe.fandom.com)",
+      "WebFetch(domain:dannarchy.com)"
+    ]
+  }
+}

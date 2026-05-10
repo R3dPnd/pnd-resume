@@ -4,8 +4,7 @@
 * Global reset to remove the 
 */
 * {
-    width: 0px;
-    padding: 0px;
+    padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
@@ -14,11 +13,26 @@
 * Body styles including font settings for general inheritance
 */
 body {
-    font-family: 'Silkscreen', sans-serif;
+    font-family: 'Silkscreen', monospace;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.7;
+    background-image: repeating-linear-gradient(
+        0deg,
+        transparent,
+        transparent 2px,
+        rgba(0, 0, 0, 0.07) 2px,
+        rgba(0, 0, 0, 0.07) 4px
+    );
 }
+
+::-webkit-scrollbar       { width: 6px; }
+::-webkit-scrollbar-track { background: #06060a; }
+::-webkit-scrollbar-thumb {
+    background: #00ddff33;
+    border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover { background: #00ddff77; }
 
 /*
 * Pixel art fonts

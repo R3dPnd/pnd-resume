@@ -1,0 +1,45 @@
+@import '../../styles/mixins';
+
+.skills {
+    @include panel;
+
+    &__heading {
+        @include section-heading;
+        margin-bottom: 1rem;
+    }
+
+    &__category {
+        width: 100%;
+        margin-bottom: 1rem;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+    }
+
+    &__category-name {
+        width: 100%;
+        font-size: 0.7rem;
+        @include neon-teal;
+        text-transform: uppercase;
+        letter-spacing: 0.12em;
+        margin-bottom: 0.4rem;
+    }
+
+    &__list {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.4rem;
+    }
+
+    &__item {
+        width: auto;
+        font-size: 0.7rem;
+        color: $color-primary;
+        background-color: #{$color-primary-deep}18;
+        border: 1px solid #{$color-primary-mid}44;
+        padding: 0.2rem 0.6rem;
+    }
+}

@@ -1,0 +1,33 @@
+@import '../../styles/mixins';
+
+.contact {
+    @include panel;
+
+    &__heading {
+        @include section-heading;
+        margin-bottom: 1rem;
+    }
+
+    &__list {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    &__item {
+        width: 100%;
+        font-size: 0.75rem;
+        color: $color-grey-light-1;
+
+        a {
+            @include neon-teal;
+            text-decoration: none;
+
+            &:hover {
+                @include neon-blue;
+            }
+        }
+    }
+}
